@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import TodoItems from './TodoItems';
 
 function TodoForm({ addTodo }) {
   const [text, setText] = useState('');
@@ -13,6 +14,7 @@ function TodoForm({ addTodo }) {
 
   return (
     <form onSubmit={handleSubmit} className="user-form">
+      <TodoItems />
       <input
         type="text"
         value={text}
