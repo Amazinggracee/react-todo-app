@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Navigation() {
   return (
     <nav className="nav">
-      <h2>Math Magicians</h2>
+      <h2>What are we doing today?</h2>
       <ul className="linkClass">
         <li>
           <Link to="/" className="links">
