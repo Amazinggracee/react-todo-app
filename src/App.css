@@ -1,0 +1,67 @@
+/* App.css */
+
+.App {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: powderblue;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-form {
+  display: flex;
+  gap: 5px;
+}
+
+.delete {
+  display: flex;
+  gap: 5px;
+  margin-top: 40px;
+}
+
+.TodoList li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TodoList li button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.TodoList li button:hover {
+  background-color: #cc4c3c;
+}
+
+.TodoList li.completed {
+  background-color: #eee;
+  text-decoration: line-through;
+}
